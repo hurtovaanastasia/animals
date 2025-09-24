@@ -108,7 +108,7 @@ public class Main {
     }
 
     private static void printResults(animalThread rabbit, animalThread turtle) {
-        System.out.println("\n=== РЕЗУЛЬТАТЫ ===");
+        System.out.println("\nРЕЗУЛЬТАТЫ:");
         System.out.println("Кролик: " + rabbit.getMeters() + " метров");
         System.out.println("Черепаха: " + turtle.getMeters() + " метров");
 
