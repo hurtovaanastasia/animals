@@ -32,7 +32,7 @@ class animalThread extends Thread {
 
         isFinished = true;
         if (meters >= 100) {
-            System.out.println("=== " + animalName + " ФИНИШИРОВАЛ! ===");
+            System.out.println(animalName + " ФИНИШИРОВАЛ! ");
         }
     }
 
@@ -74,7 +74,7 @@ public class Main {
     private static void monitorAndAdjustRace(animalThread rabbit, animalThread turtle) {
         while (!rabbit.isFinished() && !turtle.isFinished()) {
             try {
-                Thread.sleep(500); // Проверяем каждые 0.5 секунды
+                Thread.sleep(500);
 
                 int rabbitMeters = rabbit.getMeters();
                 int turtleMeters = turtle.getMeters();
