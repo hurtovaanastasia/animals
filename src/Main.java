@@ -117,7 +117,7 @@ public class Main {
         } else if (rabbit.getMeters() < turtle.getMeters()) {
             System.out.println(" ПОБЕДИТЕЛЬ: ЧЕРЕПАХА!");
         } else {
-            System.out.println(" ПОБЕДИЛА ДРУЖБА!!!");
+            System.out.println(" ПОБЕДИЛА ДРУЖБА!");
         }
 
     }
