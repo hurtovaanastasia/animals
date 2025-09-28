@@ -100,7 +100,6 @@ public class Main {
                     System.out.println("Близкая гонка! Устанавливаем равные приоритеты: " +
                             Thread.NORM_PRIORITY);
                 }
-
             } catch (InterruptedException e) {
                 break;
             }
